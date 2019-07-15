@@ -2,12 +2,8 @@
 
 require ('./lib/clockangle.rb')
 
-print "Enter the hour, or q to quit: "
-hour = gets.chomp
-if hour == "q"
-  break
-end
-hour = hour.to_i
+print "Enter the hour: "
+hour = gets.chomp.to_i
 print "Enter the minutes: "
 minutes = gets.chomp.to_i
 
